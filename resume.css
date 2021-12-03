@@ -1,0 +1,62 @@
+body{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(3, 3, 75);
+}
+
+h1{
+    font-size: 210%;
+}
+
+h2{
+    font-size: 150%;
+    text-decoration: underline;
+    color: rgb(3, 3, 75);
+}
+
+p{
+    font-size: 20px;
+    color : orangered;
+}
+
+.body{
+    background-color: cornsilk;
+    padding-left: 1%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#content-left{
+background-color: cornsilk;
+-webkit-flex: 50%;
+-ms-flex: 50%;
+flex: 50%;
+padding: 20px;
+}
+
+#content-right {
+    -webkit-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+@media (max-width: 700px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+
+#email{
+    float: right;
+}
