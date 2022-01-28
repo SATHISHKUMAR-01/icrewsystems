@@ -1,10 +1,10 @@
 var login_button = document.getElementById('login_button')
 login_button.addEventListener('click', showofflogin)
-//login_button.style.opacity = 0.6    
+    
 
 var register_button = document.getElementById('register_button')
 register_button.addEventListener('click', showoffregister)
-//register_button.style.opacity = 0.6  
+ 
 
 var login = document.getElementById('login')
 
