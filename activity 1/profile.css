@@ -1,0 +1,32 @@
+
+#round{
+    width: 200px;
+    height: 200px;
+    border: 5px  black;
+    border-radius: 100px;
+    position: relative;
+    top:5%;
+    left:42%; 
+    right:58%;
+    border-style: double;
+    
+}
+
+#box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(123, 255, 0);
+    border-radius: 1px;
+    position: absolute;
+    top:10%;
+    left:35%; 
+    right:65%;
+    border-radius: 60px;
+}
+
+
+#empty{
+    width: 400px;
+    height: 150px;
+}
