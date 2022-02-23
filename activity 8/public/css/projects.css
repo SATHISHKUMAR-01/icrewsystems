@@ -1,0 +1,15 @@
+#project-gif{
+    width: 300px;
+}
+
+#project-title{
+    font-size: 108px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.projects img{
+    width: 150px;
+    height: 150px;
+}
